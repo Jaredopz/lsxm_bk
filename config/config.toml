@@ -1,7 +1,7 @@
 [viewer]
     Title = "Jared Go语言博客"
     Description = "Jared Go语言博客"
-    Logo = "resource/images/logo.png"
+    Logo = "/resource/images/logo.png"
     Navigation = ["首页", "/", "Go语言", "/golang", "归档", "/pigeonhole", "关于", "/about"]
     Bilibili = "https://space.bilibili.com/399629774"
     Zhihu = "https://www.zhihu.com/people/an-ran-34-44-96"
