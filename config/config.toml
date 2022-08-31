@@ -1,0 +1,19 @@
+[viewer]
+    Title = "Jared Go语言博客"
+    Description = "Jared Go语言博客"
+    Logo = "resource/images/logo.png"
+    Navigation = ["首页", "/", "Go语言", "/golang", "归档", "/pigeonhole", "关于", "/about"]
+    Bilibili = "https://space.bilibili.com/399629774"
+    Zhihu = "https://www.zhihu.com/people/an-ran-34-44-96"
+    Avatar = "https://cdn.pixabay.com/photo/2022/01/18/16/42/animal-6947514_960_720.jpg"
+    UserName = "Jared"
+    UserDesc = "会唱rap的程序员"
+
+[system]
+    CduURL = "https://static.mszlu.com/goblog/es6/md-assets"
+    QiniuAccessKey = ""
+    QiniuSecretKey = ""
+    Valine = true
+    ValineAppid = ""
+    ValineAppkey = ""
+    ValineServerURL = ""
