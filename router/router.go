@@ -12,8 +12,10 @@ func Router() {
 	// 1.页面
 	http.HandleFunc("/", views.HTML.Index)
 	http.HandleFunc("/c/", views.HTML.Category)
+	http.HandleFunc("/login", views.HTML.Login)
 	// 2.api处理
 	http.HandleFunc("/api/v1/post", api.API.SaveAndUpdatePost)
+	http.HandleFunc("/api/v1/login", api.API.Login)
 	// 路由与resource静态信息匹配
 	// 3.静态资源
 	http.Handle("/resource/", http.StripPrefix("/resource/", http.FileServer(http.Dir("public/resource/"))))
